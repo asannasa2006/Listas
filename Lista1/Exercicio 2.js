@@ -1,3 +1,3 @@
-let numero = 10
+const numero = parseInt(prompt("Digite um número (inteiro)"))
 
 console.log(numero)
