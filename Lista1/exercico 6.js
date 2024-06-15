@@ -1,3 +1,3 @@
-let variavel1 = "b"
+let caracter = "b"
 
-console.log( `"${variavel1}"`)
+console.log( `"${caracter}"`)
