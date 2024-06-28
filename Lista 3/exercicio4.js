@@ -7,4 +7,3 @@ let lado3 = parseFloat(prompt("Digite o lado c do triângulo:"));
 let perimetro = (lado1 + lado2 + lado3);
 
 console.log("Perímetro:" + perimetro);
-console.log(typeof(perimetro));
