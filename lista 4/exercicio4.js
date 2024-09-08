@@ -1,3 +1,4 @@
+
 console.log("Idade em anos");
 
 const dias_em_anos= 365.25; // para contar anos bissextos
@@ -14,3 +15,4 @@ let meses = Math.floor(resto_de_dias/dias_em_meses); // O math.floor arredenda p
 resto_de_dias = Math.floor(resto_de_dias % dias_em_meses);
 
 console.log("São aproximadamente " + anos + " ano/s, " + meses + " mês/meses e " + resto_de_dias + "dias/s")
+console.log("Idade em anos");
