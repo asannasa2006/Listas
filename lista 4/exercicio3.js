@@ -4,9 +4,9 @@ let anos = parseInt(prompt("Anos: "));
 let meses = parseInt(prompt("Meses: "));
 let dias = parseInt(prompt("Dias: "));
 
-let dias_ano =  anos*365
-let dias_meses = meses*30
+let dias_ano =  anos*365.25
+let dias_meses = meses*30.417
 
-let total = dias_ano + dias_meses + dias;
+let total = Math.round( dias_ano + dias_meses + dias);
 
 console.log("Idade em dias: " + total);
