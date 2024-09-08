@@ -15,5 +15,5 @@ let min_total = Math.floor(resto_segundos/ min);
 //restante de segundos 
 let segundos_total= resto_segundos % min
 
-console.log("Tempo total: " + horas_total + " horas, " + min_total + " minuto/s e " + segundos_total + "segundos.")
+console.log("Tempo total: " + horas_total + " horas, " + min_total + " minuto/s e " + segundos_total + " segundos.")
 
